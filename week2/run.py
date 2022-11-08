@@ -3,7 +3,7 @@ import os
 import requests
 
 directory = "/data/feedback"
-feedback_dict = {"title":"","name":"","date":"","feedback":""};
+feedback_dict = {"title":"","name":"","date":"","feedback":""}
 
 for filename in os.listdir(directory):
     file = os.path.join(directory, filename)
